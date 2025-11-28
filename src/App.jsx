@@ -1,7 +1,10 @@
 import './App.css'
 import Button from './components/Button.jsx';
 import './components/Button.css'
-// import bagOne from 'assets/bag_1.png';
+import bagOne from './assets/bag_1.png';
+import bagTwo from './assets/bag_2.png';
+import bagThree from './assets/bag_3.png';
+import bagFour from './assets/bag_4.png';
 import Product from "./components/Product.jsx";
 
 function App() {
@@ -31,25 +34,25 @@ function App() {
           </nav>
           <main>
               <Product
-                  // image={bagOne}
+                  image={bagOne}
                   title="The handy Bag"
                   price="€400,-"
                   label="Best seller"
               />
               <Product
-                  // image={bagOne}
+                  image={bagTwo}
                   title="The stylish Bag"
                   price="€250,-"
                   label="Best seller"
               />
               <Product
-                  // image={bagOne}
+                  image={bagThree}
                   title="The simple Bag"
                   price="€300,-"
                   label="New collection"
               />
               <Product
-                  // image={bagOne}
+                  image={bagFour}
                   title="The trendy Bag"
                   price="€150,-"
                   label="New collection"
